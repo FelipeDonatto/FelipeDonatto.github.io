@@ -1,0 +1,33 @@
+body{
+    background-color: #E5E5E5;
+}
+h1{
+    color: #000000;
+    text-align: center;
+    font-weight: 700;
+}
+#foto {
+    margin: auto;
+    display: block;
+    width: 270px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+strong{
+    color:#FCA311;
+    text-decoration: underline;
+}
+li{
+    font-size: 24px;
+}
+h2{
+    font-size: 2em;
+    text-align: left;
+}
+h3{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
