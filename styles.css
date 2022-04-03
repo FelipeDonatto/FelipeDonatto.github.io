@@ -1,17 +1,14 @@
+*{
+    font-family: sans-serif;
+}
 body{
     background-color: #E5E5E5;
+    padding: 15px;
 }
 h1{
     color: #000000;
     text-align: center;
     font-weight: 700;
-}
-#foto {
-    margin: auto;
-    display: block;
-    width: 270px;
-  border: 2px solid black;
-  border-radius: 50%;
 }
 strong{
     color:#FCA311;
@@ -30,4 +27,48 @@ h3{
 p{
     font-size: 20px;
     text-align: center;
+}
+#nome{
+    text-align: center;
+    
+}
+.firstlook{
+    margin: auto;
+    display: inline-block;
+    background-color: rgb(148, 26, 26);
+}
+#description{
+    margin-top: 150px;
+    position: absolute;
+    left: 350px;
+    text-align: left;
+}
+.tudo{
+    position: relative;
+   
+
+}
+.resto{
+    height: 300px;
+    width: 800px;
+}
+#fotos{
+    height: 300px;
+    float: left;
+   
+    border: 2px solid black;
+    padding: 5px;
+    background-color:#FCA311 ;
+}
+ul li:nth-child(odd){
+    font-family: fantasy;
+}
+#botao{
+    padding: 15px;
+    background-color: #14213D;
+    color:#FFFFFF ;
+    border-radius: 15px;
+}
+#botao:hover{
+    background-color:#0c1933;
 }
