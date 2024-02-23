@@ -1,16 +1,9 @@
-.header-container {
-  display: flex;
-  width: 60%;
-  margin: auto;
-  background-color: #212529;
-  position: fixed;
-  justify-content: space-between;
-  left: 50%;
-  transform: translate(-50%, 0);
-}
 .header-text {
   font-weight: bolder;
-  font-size: large;
+  text-align: center;
+  color: #f5f5f5;
+  opacity: 0.8;
+  font-size: medium;
 }
 
 @keyframes blink {
@@ -23,13 +16,15 @@
   animation: 1s blink step-end infinite;
 }
 .App-header {
+  position: fixed;
+  width: 100%;
   background-color: #212529;
-  padding: 30px 0px 60px 0px;
+  padding: 20px 0px 20px 0px;
 }
 
 * {
   margin: 0;
   padding: 0;
-  color: #dee2e6;
+  background-color: #212529;
   font-family: "JetBrains Mono";
 }

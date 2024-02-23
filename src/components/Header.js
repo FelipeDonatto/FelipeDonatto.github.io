@@ -6,13 +6,7 @@ export default function Header() {
     <header className="App-header">
       <div className="header-container">
         <div className="header-text">
-          FELIPE DONATTO
-          <span className="blinking-underline">_</span>
-        </div>
-
-        <div>
-          <button>INICIO</button>
-          <button>PORTFÓLIO</button>
+          LOREM IPSUM<span className="blinking-underline">_</span>
         </div>
       </div>
     </header>
