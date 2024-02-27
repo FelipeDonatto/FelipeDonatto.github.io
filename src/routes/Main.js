@@ -11,9 +11,7 @@ function App() {
       <div>
         <Header />
       </div>
-      <div>
-        <MainText />
-      </div>
+      <MainText />
       <Footer />
     </>
   );
